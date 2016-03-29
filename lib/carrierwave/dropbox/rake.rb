@@ -23,7 +23,6 @@ module CarrierWave
 Authorization was successful. Here you go:
 
 access_token: #{session.access_token.key}
-access_token_secret: #{session.access_token.secret}
 user_id: #{account_info["uid"]}
         MESSAGE
       end
